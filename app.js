@@ -115,16 +115,9 @@ let div = document.querySelector("#div");
 for(i=0 ; i<products.length ; i++){
     div.innerHTML += `<div class="card cards" style="width: 18rem;">
   <div class="card-body">
-    <h6 class="card-title text-dark">Product: ${products[i].name}</h6>
+   <h6 class="card-title text-dark">Product: ${products[i].name}</h6>
     <h6 class="card-title text-danger">Price: ${products[i].price}$</h6>
     <h6 class="card-text text-primary">Description: ${products[i].description}</h6>
   </div>
 </div>`;
 }
-
-
-
-// <h4>Name: ${products[i].name}</h4> 
-//     <h4>Price: ${products[i].price}</h4>
-//     <h4>Description: ${products[i].description}</h4>
-//     <hr/>
