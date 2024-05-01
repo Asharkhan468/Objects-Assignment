@@ -5,13 +5,15 @@
     font: 1em sans-serif;
 }
 
+body{
+    background-color: #ebebeb;
+
+}
 
 .cards{
     margin-top: 20px;
     border: 1px solid gray;
-    background-color: #f7fffb;
+    background-color: white;
 }
 
-.bg-blue{
-    background-color: lightblue;
-}
+
