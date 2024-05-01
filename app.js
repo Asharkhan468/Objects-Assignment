@@ -113,8 +113,17 @@ let div = document.querySelector("#div");
 
 
 for(i=0 ; i<products.length ; i++){
-    div.innerHTML+=`<h4>Name: ${products[i].name}</h4> 
-    <h4>Price: ${products[i].price}</h4>
-    <h4>Description: ${products[i].description}</h4>
-    <hr/>`
+    div.innerHTML += `<div class="card d-flex" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>`;
 }
+
+
+
+// <h4>Name: ${products[i].name}</h4> 
+//     <h4>Price: ${products[i].price}</h4>
+//     <h4>Description: ${products[i].description}</h4>
+//     <hr/>
