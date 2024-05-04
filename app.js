@@ -112,12 +112,24 @@ const products = [
 let div = document.querySelector("#div");
 
 
-for(i=0 ; i<products.length ; i++){
+for(i = 0 ; i < products.length ; i++){
     div.innerHTML += `<div class="card cards" style="width: 18rem;">
-  <div class="card-body">
+  <div onclick="data(${i})" class="card-body">
    <h6 class="card-title text-dark">Product: ${products[i].name}</h6>
     <h6 class="card-title text-danger">Price: ${products[i].price}$</h6>
     <h6 class="card-text text-primary">Description: ${products[i].description}</h6>
   </div>
 </div>`;
+let cards = document.querySelector(".card-body");
+
+function data(index) {
+  console.log(cards.innerText);
 }
+
+
+
+}
+
+
+
+
