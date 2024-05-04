@@ -118,7 +118,7 @@ for (i = 0; i < products.length; i++) {
 </div>`;
 
   function myFunct(index) {
-    console.log(`Name:${products[index].name}
+    console.log(`Product:${products[index].name}
 Description:${products[index].description}
 Price:${products[index].price} `);
   }
